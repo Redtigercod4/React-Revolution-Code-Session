@@ -1,5 +1,5 @@
 # React Revolution Code Session
-License: ``MIT``
+License: ``Apache-2.0``
 
 Project Status: ``Pending Continuation``
 
