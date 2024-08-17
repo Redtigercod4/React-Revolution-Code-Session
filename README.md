@@ -1,27 +1,16 @@
-# React + TypeScript + Vite
+# React Revolution Code Session
+License: ``MIT``
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Status: ``Pending Continuation``
 
-Currently, two official plugins are available:
+This project is used to support novice and intermediary skilled developers in a ReactJS levelup session in support of events such as Hackathon's. This repository contains a basic ReactJS application which can be easily modified prior to use in the session and used as a basic get started framework under industry best practices. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to get started
+``npm install`` - Install all node packages to run the application
 
-## Expanding the ESLint configuration
+``npm start`` - Start development instance of the application
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+``npm build`` - Build a production instance of the application
 
-- Configure the top-level `parserOptions` property like this:
+``npm test`` - Runs all test suites against the application
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
